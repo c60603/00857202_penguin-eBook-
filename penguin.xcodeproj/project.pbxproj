@@ -13,6 +13,14 @@
 		3B7AD12D25344A4B0090BF97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7AD12C25344A4B0090BF97 /* Preview Assets.xcassets */; };
 		3B7AD12F25344A4B0090BF97 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AD12E25344A4B0090BF97 /* Persistence.swift */; };
 		3B7AD13225344A4B0090BF97 /* penguin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AD13025344A4B0090BF97 /* penguin.xcdatamodeld */; };
+		3B7AD13B25344A850090BF97 /* CharacterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AD13A25344A850090BF97 /* CharacterList.swift */; };
+		3B7AD13E25344AD80090BF97 /* CharacterPenguin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AD13D25344AD80090BF97 /* CharacterPenguin.swift */; };
+		3B7AD14125344B050090BF97 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AD14025344B050090BF97 /* CharacterView.swift */; };
+		3B7AD14425344B270090BF97 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AD14325344B270090BF97 /* Character.swift */; };
+		3B7AD14725344B430090BF97 /* CharacterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AD14625344B430090BF97 /* CharacterDetail.swift */; };
+		3B7AD14A25344B5D0090BF97 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AD14925344B5D0090BF97 /* AppView.swift */; };
+		4BEAB9E82536A72F00D3839E /* linker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEAB9E72536A72F00D3839E /* linker.swift */; };
+		53003D0B253737EA0078BD04 /* wall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53003D0A253737EA0078BD04 /* wall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		3B7AD12E25344A4B0090BF97 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3B7AD13125344A4B0090BF97 /* penguin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = penguin.xcdatamodel; sourceTree = "<group>"; };
 		3B7AD13325344A4B0090BF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7AD13A25344A850090BF97 /* CharacterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterList.swift; sourceTree = "<group>"; };
+		3B7AD13D25344AD80090BF97 /* CharacterPenguin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterPenguin.swift; sourceTree = "<group>"; };
+		3B7AD14025344B050090BF97 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		3B7AD14325344B270090BF97 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		3B7AD14625344B430090BF97 /* CharacterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetail.swift; sourceTree = "<group>"; };
+		3B7AD14925344B5D0090BF97 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		4BEAB9E72536A72F00D3839E /* linker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linker.swift; sourceTree = "<group>"; };
+		53003D0A253737EA0078BD04 /* wall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +75,15 @@
 				3B7AD12525344A4A0090BF97 /* penguinApp.swift */,
 				3B7AD12725344A4A0090BF97 /* ContentView.swift */,
 				3B7AD12925344A4B0090BF97 /* Assets.xcassets */,
+				3B7AD13D25344AD80090BF97 /* CharacterPenguin.swift */,
 				3B7AD12E25344A4B0090BF97 /* Persistence.swift */,
+				3B7AD14025344B050090BF97 /* CharacterView.swift */,
+				4BEAB9E72536A72F00D3839E /* linker.swift */,
+				3B7AD14325344B270090BF97 /* Character.swift */,
+				53003D0A253737EA0078BD04 /* wall.swift */,
+				3B7AD13A25344A850090BF97 /* CharacterList.swift */,
+				3B7AD14625344B430090BF97 /* CharacterDetail.swift */,
+				3B7AD14925344B5D0090BF97 /* AppView.swift */,
 				3B7AD13325344A4B0090BF97 /* Info.plist */,
 				3B7AD13025344A4B0090BF97 /* penguin.xcdatamodeld */,
 				3B7AD12B25344A4B0090BF97 /* Preview Content */,
@@ -144,10 +168,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B7AD14725344B430090BF97 /* CharacterDetail.swift in Sources */,
+				3B7AD13E25344AD80090BF97 /* CharacterPenguin.swift in Sources */,
 				3B7AD12F25344A4B0090BF97 /* Persistence.swift in Sources */,
 				3B7AD12825344A4A0090BF97 /* ContentView.swift in Sources */,
+				3B7AD13B25344A850090BF97 /* CharacterList.swift in Sources */,
 				3B7AD13225344A4B0090BF97 /* penguin.xcdatamodeld in Sources */,
 				3B7AD12625344A4A0090BF97 /* penguinApp.swift in Sources */,
+				3B7AD14125344B050090BF97 /* CharacterView.swift in Sources */,
+				4BEAB9E82536A72F00D3839E /* linker.swift in Sources */,
+				53003D0B253737EA0078BD04 /* wall.swift in Sources */,
+				3B7AD14A25344B5D0090BF97 /* AppView.swift in Sources */,
+				3B7AD14425344B270090BF97 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
